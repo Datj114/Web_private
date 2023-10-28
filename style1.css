@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: VNM-Sans-Display-Regular;
+    src: url(font/VNM-Sans-Display-Regular.otf);
+}
+
+body{
+    font-family: VNM-Sans-Display-Regular;
+    background-color: #0313b0;
+    color: #ffffff;
+    
+}
+
+h3{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 130px;
+
+}
+
+.name{
+    font-size: 160px;
+    text-align: center;
+    margin: auto;
+    font-weight: normal;
+
+}
+
+p{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 530px;
+    
+}
+
+.age{
+    margin-left: 239px;
+}
+
+
+.icon{
+    display: inline-block;
+    margin-left: 620px;
+}
+
+i{
+    padding: 0px 20px;
+}
+
+
+
+
