@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "VNM-Sans-Display-Regulars";
+    background-color: #f1f5f9;
+    color: #212b36;
+}
+@font-face {
+    font-family: "VNM-Sans-Display-Regulars";
+    src: url(font/VNM-Sans-Display-Regular.otf);
+}
+
+body{
+    background-color: #f1f5f9;
+    font-family: "VNM-Sans-Display-Regulars", sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.bang{
+
+    background-color: white;
+    width: 380px;
+    height: 400px;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(138, 135, 135);
+}      
+.dong1{
+    color: #624bff;
+    font-size: 22px;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin-bottom: 13px;
+}
+.dong2{
+    font-size: 12px;
+    font-weight: normal;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    margin-bottom: 13px;
+    color: #212b36;
+}
+.dong3{
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    color: #212b36;
+    margin-bottom: 8px;
+}
+.box1{
+    width: 380px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.dong4{
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    color: #212b36;
+    margin-bottom: 8px;
+}
+.box2{
+    width: 380px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.dong5{
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    color: #212b36;
+    margin-bottom: 25px;
+}
+.box3{
+    
+        background-color: #624bff;
+        width: 380px;
+        height: 35px;
+        border: 1px solid #624bff;
+        border-radius: 5px;
+        color :#f1f5f9 ;
+        margin-bottom: 15px;
+        transition: color  0.3s;
+        font-size: 15px; 
+        font-weight: bolder;  
+        letter-spacing:1px;  
+}
+.box3:hover{
+    color: #2b2a31;
+}
+.dong6a{
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    color:#624bff;
+}
+.dong6b{
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    color: #212b36;
+}
+.khoangtrang{
+    margin-left: 60px;
+}
+.xoagachchan{
+    text-decoration: none;
+}
