@@ -18,13 +18,19 @@
         />
         <title>Document</title>
         <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Inconsolata', monospace;
+            }
             .line {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
             }
             .container {
-                margin: 5%;
+                padding: 5%;
             }
             .word1 {
                 font-size: larger;
@@ -33,15 +39,103 @@
             .words {
                 display: flex;
                 flex-direction: row;
+                padding-left: 20px;
             }
-            .big {
+            .image {
                 display: flex;
-                flex-direction: row;
+                /* flex-direction: row; */
+                /* justify-content: space-around; */
+                width: 100%;
+            }
+            /* .image-box {
+                width: 100%;
+                height: auto;
+                gap: 10px;
+            } */
+            .banner {
+                margin-top: 5%;
+            }
+            .banner-top {
+                display: flex;
                 justify-content: space-between;
             }
-            .box {
-                height: 25vh;
-                width: 25vh;
+            .banner-top div img {
+                width: 100%;
+            }
+            .banner-under {
+                display: flex;
+                justify-content: space-between;
+                padding-top: 20px;
+            }
+            .banner-under div img {
+                width: 100%;
+            }
+            .img-middle {
+                padding: 0 20px;
+            }
+            .line2 {
+                padding-top: 50px;
+            }
+            .banner2 {
+                padding-top: 20px;
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+            }
+            .banner2 div img {
+                width: 100%;
+            }
+            .content-middle {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 5%;
+            }
+            .content-middle-text {
+                width: 22%;
+            }
+
+            .content-middle-text i {
+                font-size: 1.6rem;
+                padding-bottom: 20px;
+            }
+            .content-middle-text p {
+                font-family: 'Inconsolata', monospace;
+                font-weight: 400;
+            }
+            .text-info {
+                margin-bottom: 10px;
+            }
+            .icon {
+                font-size: 1rem !important;
+            }
+
+            .footer {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10%;
+            }
+            .footer-left p:nth-child(1) {
+                font-family: 'Inconsolata', monospace;
+                font-weight: 300;
+            }
+            .footer-left p:nth-child(2) {
+                font-family: 'Inconsolata', monospace;
+                font-weight: 400;
+            }
+            .footer-right i {
+                padding: 10px;
+                border-radius: 50%;
+                background-color: #ccc;
+            }
+            .face {
+                margin-left: 20px;
+            }
+
+            .inta {
+                margin-left: 20px;
+            }
+            .git {
+                margin-left: 20px;
             }
         </style>
     </head>
@@ -68,24 +162,155 @@
                 </div>
             </div>
             <br /><br />
-            <div class="big">
-                <div class="box">
+            <!-- banner -->
+            <div class="banner">
+                <div class="banner-top">
+                    <div class="banner-img">
+                        <img src="https://phuonghight.github.io/HIT14_Web_Private/Exercise-03/img_1.jpg" alt="" />
+                    </div>
+                    <div class="banner-img">
+                        <img
+                            src="https://phuonghight.github.io/HIT14_Web_Private/Exercise-03/img_2.jpg"
+                            alt=""
+                            class="img-middle"
+                        />
+                    </div>
+                    <div class="banner-img">
+                        <img src="https://phuonghight.github.io/HIT14_Web_Private/Exercise-03/img_3.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="banner-under">
+                    <div>
+                        <img src="https://phuonghight.github.io/HIT14_Web_Private/Exercise-03/img_4.jpg" alt="" />
+                    </div>
+                    <div>
+                        <img
+                            src="https://phuonghight.github.io/HIT14_Web_Private/Exercise-03/img_5.jpg"
+                            alt=""
+                            class="img-middle"
+                        />
+                    </div>
+                    <div>
+                        <img src="https://phuonghight.github.io/HIT14_Web_Private/Exercise-03/img_6.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+            <!-- line2 -->
+            <div class="line2">
+                <p class="word1" , style="display: flex; justify-content: center">My Clients</p>
+                <p style="display: flex; justify-content: center">
+                    lLorem ipsum dolor sit amet consectetur adopisicing elit
+                </p>
+                <p style="display: flex; justify-content: center">explicabo inventore</p>
+            </div>
+            <!-- banner2 -->
+            <div class="banner2">
+                <div>
                     <img
-                        src="https://github.com/phuonghight/HIT14_Web_Private/raw/master/Exercise-03/img_1.jpg"
+                        src="https://github.com/phuonghight/HIT14_Web_Private/raw/master/Exercise-03/logo-adobe.png"
                         alt=""
                     />
                 </div>
-                <div class="box">
+                <div>
                     <img
-                        src="https://github.com/phuonghight/HIT14_Web_Private/raw/master/Exercise-03/img_2.jpg"
+                        src="https://github.com/phuonghight/HIT14_Web_Private/raw/master/Exercise-03/logo-apple.png"
                         alt=""
                     />
                 </div>
-                <div class="box">
+                <div>
                     <img
-                        src="https://github.com/phuonghight/HIT14_Web_Private/raw/master/Exercise-03/img_3.jpg"
+                        src="https://github.com/phuonghight/HIT14_Web_Private/raw/master/Exercise-03/logo-google.png"
                         alt=""
                     />
+                </div>
+                <div>
+                    <img
+                        src="https://github.com/phuonghight/HIT14_Web_Private/raw/master/Exercise-03/logo-netflix.png"
+                        alt=""
+                    />
+                </div>
+                <div>
+                    <img
+                        src="https://github.com/phuonghight/HIT14_Web_Private/raw/master/Exercise-03/logo-nike.png"
+                        alt=""
+                    />
+                </div>
+                <div>
+                    <img
+                        src="https://github.com/phuonghight/HIT14_Web_Private/raw/master/Exercise-03/logo-uber.png"
+                        alt=""
+                    />
+                </div>
+            </div>
+            <!--  -->
+            <div class="content-middle">
+                <div class="content-middle-text">
+                    <i class="fa-solid fa-list-check"></i>
+                    <p>Web Design</p>
+                    <p class="text-info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit explicabo inventore.
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-minus icon"></i>&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing
+                    </p>
+                    <p><i class="fa-solid fa-minus icon"></i>&nbsp;Non pariatur nisi</p>
+                    <p><i class="fa-solid fa-minus icon"></i>&nbsp;Magnam soluta quod</p>
+                    <p><i class="fa-solid fa-minus icon"></i>&nbsp;Lorem ipsum dolor</p>
+                    <p><i class="fa-solid fa-minus icon"></i>&nbsp;Cumque quae aliquam</p>
+                </div>
+                <div class="content-middle-text">
+                    <i class="fa-solid fa-binoculars"></i>
+                    <p>Mobiles Applications</p>
+                    <p class="text-info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit explicabo inventore.
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-minus icon"></i>&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing
+                    </p>
+                    <p><i class="fa-solid fa-minus icon"></i>&nbsp;Non pariatur nisi</p>
+                    <p><i class="fa-solid fa-minus icon"></i>&nbsp;Magnam soluta quod</p>
+                    <p><i class="fa-solid fa-minus icon"></i>&nbsp;Lorem ipsum dolor</p>
+                    <p><i class="fa-solid fa-minus icon"></i>&nbsp;Cumque quae aliquam</p>
+                </div>
+                <div class="content-middle-text">
+                    <i class="fa-regular fa-sun"></i>
+                    <p>Graphiic Design</p>
+                    <p class="text-info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit explicabo inventore.
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-minus icon"></i>&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing
+                    </p>
+                    <p><i class="fa-solid fa-minus icon"></i>&nbsp;Non pariatur nisi</p>
+                    <p><i class="fa-solid fa-minus icon"></i>&nbsp;Magnam soluta quod</p>
+                    <p><i class="fa-solid fa-minus icon"></i>&nbsp;Lorem ipsum dolor</p>
+                    <p><i class="fa-solid fa-minus icon"></i>&nbsp;Cumque quae aliquam</p>
+                </div>
+                <div class="content-middle-text">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <p>SEO</p>
+                    <p class="text-info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit explicabo inventore.
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-minus icon"></i>&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing
+                    </p>
+                    <p><i class="fa-solid fa-minus icon"></i>&nbsp;Non pariatur nisi</p>
+                    <p><i class="fa-solid fa-minus icon"></i>&nbsp;Magnam soluta quod</p>
+                    <p><i class="fa-solid fa-minus icon"></i>&nbsp;Lorem ipsum dolor</p>
+                    <p><i class="fa-solid fa-minus icon"></i>&nbsp;Cumque quae aliquam</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-left">
+                    <p>&copy; Copyright MyPortfolio. All Rights Reserved</p>
+                    <p>Designed by BootstrapMade</p>
+                </div>
+                <div class="footer-right">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook face"></i>
+                    <i class="fa-brands fa-instagram inta"></i>
+                    <i class="fa-brands fa-github git"></i>
                 </div>
             </div>
         </div>
