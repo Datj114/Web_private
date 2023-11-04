@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            .display1 {
+                display: flex;
+                height: 100vh;
+                justify-content: center;
+                align-items: center;
+            }
+            .container {
+                display: flex;
+
+                /*  chiều hiển thị của các item */
+                flex-direction: row;
+                /* bên hiển thị của cá item- trái, phải, trên , dưới nền */
+
+                /* tuỳ chỉnh khoảng trống theo trục main */
+                justify-content: space-around;
+
+                align-items: center;
+                align-content: center;
+                flex-basis: auto;
+            }
+            .box {
+                background-color: orange;
+                width: 40px;
+                height: 40px;
+            }
+            .box1 {
+                width: 40px;
+                height: 40px;
+            }
+            .i {
+                display: flex;
+                flex-direction: column;
+            }
+            .h {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 20px;
+            }
+            .t {
+                display: flex;
+                justify-content: first baseline;
+                margin: 20px;
+            }
+            .ba {
+                display: flex;
+                flex-direction: column;
+            }
+            .bon {
+                margin: 20px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="display1">
+            <div class="container">
+                <div class="h">
+                    <div class="i">
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                    </div>
+                    <div class="box"></div>
+                    <div class="i">
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                    </div>
+                </div>
+                <div class="i">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+                <div class="t">
+                    <div class="box"></div>
+                    <div class="i">
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                    </div>
+                    <div class="box"></div>
+                </div>
+
+                <div class="i">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+
+                <div class="bon">
+                    <div class="ba">
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box1"></div>
+                        <div class="box1"></div>
+                    </div>
+                    <div class="box"></div>
+                    <div class="i">
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
