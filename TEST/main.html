@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="index.css" />
+        <title>TEST</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="image">
+                <img
+                    src="data:image/jpeg;base64,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"
+                    alt=""
+                />
+            </div>
+            <div class="header__betten">
+                <div class="content">All Categories</div>
+                <input type="text" value="" placeholder="Search For Product" />
+                <a href="#">Search</a>
+            </div>
+            <div class="header__bottom">
+                <div class="header__bottom--left">
+                    <div class="text">Cart</div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+        </div>
+
+       <div class="content_big">
+            <div class="menu">
+                <ul >
+                    <p> ALL CATEGORY</p>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="menu-lv1">
+                        <a href="#">laptop</a>
+                        <ul class="menu-lv2">
+                            <li> 
+                                <a href="#">Dell(0)</a>
+                            </li>
+                            <li> 
+                                <a href="#">men(0)</a>
+                            </li>
+                            <li> 
+                                <a href="#">purse(0)</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Shocks</a>
+                    </li>
+                    <li>
+                        <a href="#">Cloth</a>
+                    </li>
+                </ul>
+                
+                
+            </div>
+            <div class="content">
+                <div class="right_one">
+                    <div class="product">
+                        <div class="img-wrap">
+                            <img src="https://synnexfpt.com/wp-content/uploads/2022/06/70270353_135.jpeg" alt="" />
+                            <div class="name">Apple AirPods Pro</div>
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="flex align-center" style="justify-content: space-between">
+                                <div>
+                                    <div class="price">1.990.000₫</div>
+                                    <div class="original-price">3.990.000₫</div>
+                                </div>
+                                <div class="cart flex align-center justify-center">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-wrap">
+                            <img src="https://synnexfpt.com/wp-content/uploads/2022/06/70270353_135.jpeg" alt="" />
+                            <div class="name">Apple AirPods Pro</div>
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="flex align-center" style="justify-content: space-between">
+                                <div>
+                                    <div class="price">1.990.000₫</div>
+                                    <div class="original-price">3.990.000₫</div>
+                                </div>
+                                <div class="cart flex align-center justify-center">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-wrap">
+                            <img src="https://synnexfpt.com/wp-content/uploads/2022/06/70270353_135.jpeg" alt="" />
+                            <div class="name">Apple AirPods Pro</div>
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="flex align-center" style="justify-content: space-between">
+                                <div>
+                                    <div class="price">1.990.000₫</div>
+                                    <div class="original-price">3.990.000₫</div>
+                                </div>
+                                <div class="cart flex align-center justify-center">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-wrap">
+                            <img src="https://synnexfpt.com/wp-content/uploads/2022/06/70270353_135.jpeg" alt="" />
+                            <div class="name">Apple AirPods Pro</div>
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="flex align-center" style="justify-content: space-between">
+                                <div>
+                                    <div class="price">1.990.000₫</div>
+                                    <div class="original-price">3.990.000₫</div>
+                                </div>
+                                <div class="cart flex align-center justify-center">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="right_one">
+                    <div class="product">
+                        <div class="img-wrap">
+                            <img src="https://synnexfpt.com/wp-content/uploads/2022/06/70270353_135.jpeg" alt="" />
+                            <div class="name">Apple AirPods Pro</div>
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="flex align-center" style="justify-content: space-between">
+                                <div>
+                                    <div class="price">1.990.000₫</div>
+                                    <div class="original-price">3.990.000₫</div>
+                                </div>
+                                <div class="cart flex align-center justify-center">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-wrap">
+                            <img src="https://synnexfpt.com/wp-content/uploads/2022/06/70270353_135.jpeg" alt="" />
+                            <div class="name">Apple AirPods Pro</div>
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="flex align-center" style="justify-content: space-between">
+                                <div>
+                                    <div class="price">1.990.000₫</div>
+                                    <div class="original-price">3.990.000₫</div>
+                                </div>
+                                <div class="cart flex align-center justify-center">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-wrap">
+                            <img src="https://synnexfpt.com/wp-content/uploads/2022/06/70270353_135.jpeg" alt="" />
+                            <div class="name">Apple AirPods Pro</div>
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="flex align-center" style="justify-content: space-between">
+                                <div>
+                                    <div class="price">1.990.000₫</div>
+                                    <div class="original-price">3.990.000₫</div>
+                                </div>
+                                <div class="cart flex align-center justify-center">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-wrap">
+                            <img src="https://synnexfpt.com/wp-content/uploads/2022/06/70270353_135.jpeg" alt="" />
+                            <div class="name">Apple AirPods Pro</div>
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="flex align-center" style="justify-content: space-between">
+                                <div>
+                                    <div class="price">1.990.000₫</div>
+                                    <div class="original-price">3.990.000₫</div>
+                                </div>
+                                <div class="cart flex align-center justify-center">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
+       
+    </body>
+</html>
