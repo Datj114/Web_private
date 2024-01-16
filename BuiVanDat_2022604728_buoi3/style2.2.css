@@ -1,0 +1,29 @@
+*{
+    font-family:  Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+
+}
+
+body{
+    position: relative;
+    background-color: #A06D21;
+    
+}
+
+img{
+    max-width: 40vh;
+    height: 50vw;
+    align-items: center;
+    padding-left: 30vh;
+   
+    
+}
+
+p{
+    color: white;
+    position: absolute;
+    top: 10vh;
+    padding: 0 5vw;
+}
