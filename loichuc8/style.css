@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('a.png');
+    /* Đường dẫn đến hình ảnh nền */
+    background-size: cover;
+    /* Đảm bảo hình ảnh nền kích thước phù hợp */
+    background-position: center;
+    /* Canh giữa hình ảnh */
+    height: 100vh;
+    width: 100vw;
+    /* Chiều cao của trang bằng toàn bộ màn hình */
+    display: flex;
+    justify-content: center;
+    /* Canh giữa nội dung theo chiều ngang */
+    align-items: center;
+    /* Canh giữa nội dung theo chiều dọc */
+}
+
+.container {
+    display: flex;
+}
+
+.container img {
+    height: 100vh;
+    /* height: auto; */
+    transition: opacity 0.5s ease;
+    /* Tạo hiệu ứng mờ dvần */
+    /* margin-right: 10px; */
+    /* Khoảng cách giữa các hình ảnh */
+}
+
+.background {
+    margin-top: 20px;
+}
