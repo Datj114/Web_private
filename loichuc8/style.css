@@ -28,6 +28,11 @@ body {
     /* Tạo hiệu ứng mờ dvần */
     /* margin-right: 10px; */
     /* Khoảng cách giữa các hình ảnh */
+    
+        /* Ẩn hình ảnh ban đầu */
+}
+.x{
+    opacity: 0;
 }
 
 .background {
