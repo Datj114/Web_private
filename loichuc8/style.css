@@ -25,11 +25,8 @@ body {
     height: 100vh;
     /* height: auto; */
     transition: opacity 0.5s ease;
-    /* Tạo hiệu ứng mờ dvần */
-    /* margin-right: 10px; */
-    /* Khoảng cách giữa các hình ảnh */
+
     
-        /* Ẩn hình ảnh ban đầu */
 }
 .x{
     opacity: 0;
